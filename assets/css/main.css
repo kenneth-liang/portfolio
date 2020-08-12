@@ -2821,7 +2821,7 @@
 
 	#header {
     padding: 9em 0 9em 0;
-    background-color: #4686a0;
+    /* background-color: #4686a0; */
     color: rgba(255, 255, 255, 0.75);
     background-attachment: scroll;
 	/* background-image: url("https://www.martinlawrencephotography.com/images/uploads/gallery/155/a-step-of-faith-on-angels-landing__large.jpg"); */
