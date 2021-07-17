@@ -1,1 +1,1 @@
-[Live Link](https://kenneth-liang.github.io/myportfolio/)
+[Live Link](http://kennethliang.com/)
