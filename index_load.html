@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loading...</title>
+  <link rel="stylesheet" href="assets/css//titlescreen.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div class='spinner-wrapper'>
+    <div class="spinner"></div>
+  </div>
+
+  <div class="main-content">
+    <div class="enter">
+      <a href=index2.html>
+        <h2 class="enter-text">
+          <span class="rubberBand" aria-hidden="true" style="opacity: 1;">e</span>
+          <span class="rubberBand" aria-hidden="true" style="opacity: 1;">n</span>
+          <span class="rubberBand" aria-hidden="true" style="opacity: 1;">t</span>
+          <span class="rubberBand" aria-hidden="true" style="opacity: 1;">e</span>
+          <span class="rubberBand" aria-hidden="true" style="opacity: 1;">r</span>
+        </h2>      
+      </a>
+    </div>
+  </div>
+
+  <script>
+    let spinnerWrapper = document.querySelector('.spinner-wrapper');
+
+    window.addEventListener('load', function () {
+      // spinnerWrapper.style.display = 'none';
+      setTimeout(function () { 
+        spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+      }, 1000);
+
+    });
+  </script>
+  <script>
+    $(".rubberBand").bind("webkitAnimationEnd mozAnimationEnd animationend", function () {
+        $(this).removeClass("animated")
+      })
+
+    $(".rubberBand").hover(function () {
+      $(this).addClass("animated");
+    })
+  </script>
+</body>
+
+</html>
