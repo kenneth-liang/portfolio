@@ -20,14 +20,18 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
 		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-		
 		<!-- 
 			<noscript>
 				<link rel="stylesheet" href="assets/css/noscript.css" /></noscript> -->
 	</head>
 	<body class="is-preload">
-		
+		<!-- <div class="spinner-wrapper">
+			<div class="spinner"></div>
+		</div> -->
+		<!-- loading -->
+		<!-- <div class="wrapper"></div> -->
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
@@ -55,8 +59,8 @@
 				</div>
 			</header>
 
-		<!-- Main -->
 	
+		<!-- Main -->
 			<div id="main">
 				<!-- One -->
 				<section id="intro">
@@ -67,7 +71,12 @@
 						<header class="major">
 							&nbsp;&nbsp;&nbsp;
 							<span class="tags inner-tags"> &lt;h2&gt; </span>
-							<h2>Me, Myself, & I</h2>
+							<h2>
+								<span class="rubberBand" aria-hidden="true" style="opacity: 1;">Me, </span>
+								<span class="rubberBand" aria-hidden="true" style="opacity: 1;">Myself, </span>
+								<span class="rubberBand" aria-hidden="true" style="opacity: 1;">& </span>
+								<span class="rubberBand" aria-hidden="true" style="opacity: 1;">I </span>
+							</h2>
 							&nbsp;&nbsp;&nbsp;
 							<span class="tags inner-tags"> &lt;/h2&gt; </span>
 						</header>
@@ -88,12 +97,12 @@
 						<h3 class="sub">Education</h3>
 						<li class="education">
 							<img id="edu" src="images/appacademy.png" />
-							<a href="https://www.appacademy.io/">App Academy</a >&nbsp;&nbsp;Full Stack Web Development (2020)
+							<a href="https://www.appacademy.io/" target="_blank">App Academy</a >&nbsp;&nbsp;Full Stack Web Development (2020)
 						</li>
 						<!-- <br/> -->
 						<li class="education">
 							<img id="edu" src="images/sjsu.png" />
-							<a href="https://www.sjsu.edu/">San Jose State University</a>&nbsp;&nbsp;BS Business Analytics (2016)
+							<a href="https://www.sjsu.edu/" target="_blank">San Jose State University</a>&nbsp;&nbsp;BS Business Analytics (2016)
 						</li>
 					</section>
 
@@ -104,10 +113,14 @@
 						<br>
 						&nbsp;&nbsp;&nbsp;
 						<span class="tags inner-tags"> &lt;h2&gt; </span>
-						<h2>Projects</h2>
+						<!-- <h2>Projects</h2> -->
+						<h2>
+							<span class="rubberBand" aria-hidden="true" style="opacity: 1;">Projects</span>
+						</h2>
 						&nbsp;&nbsp;&nbsp;
 						<span class="tags inner-tags"> &lt;/h2&gt; </span>
 						<div class="row">
+							
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/new_task.gif" class="image fit thumb"><img src="images/new_task.gif" alt="" /></a>
 								<h3>Ethereum Todo List
@@ -117,8 +130,9 @@
 								</h3>
 								<p>Ethereum blockchain todo list application powered by smart contracts.</p>
 							</article>
+
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/seatcheck.png" class="image fit thumb"><img src="images/seatcheck.png" alt="" /></a>
+								<a href="images/seatchecksearch.gif" class="image fit thumb"><img src="images/seatchecksearch.gif" alt="" /></a>
 								<h3>Seat Check
 									<span>
 										<a target="_blank" href="https://seat-check.herokuapp.com/#/"> live</a>
@@ -129,7 +143,7 @@
 								<p>A full-stack web application with an OpenTable inspired UX/UI, where users can reserve seatings at their local restaurant.</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fitbook.jpeg" class="image fit thumb"><img src="images/fitbook.jpeg" alt="" /></a>
+								<a href="images/calendar.gif" class="image fit thumb"><img src="images/calendar.gif" alt="" /></a>
 								<h3>FitBook
 									<span>
 										<a target="_blank" href="http://fitness-book.herokuapp.com/"> live</a>
@@ -140,7 +154,7 @@
 								<p>Fitness tracking web application that allows users to create, track, and share custom workouts.</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/worldwidepen.png" class="image fit thumb"><img src="images/worldwidepen.png" alt="" /></a>
+								<a href="images/wwp.gif" class="image fit thumb"><img src="images/wwp.gif" alt="" /></a>
 								<h3>WorldWide Pen
 									<span>
 										<a target="_blank" href="https://kenneth-liang.github.io/WorldwidePen/"> live</a>
@@ -152,7 +166,7 @@
 								and sell pens - but as you earn more money, you get better and new ways to do the job.</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/k3p0-ss.png" class="image fit thumb"><img src="images/k3p0-ss.png" alt="" /></a>
+								<a href="images/k3po.gif" class="image fit thumb"><img src="images/k3po.gif" alt="" /></a>
 								<h3>K3PO
 									<span>
 										<a target="_blank" href="https://chat-bot-k3po.herokuapp.com/#"> live</a>
@@ -163,7 +177,7 @@
 								<p>Hackathon Project - Resume robot built with botkit.js.</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/pig.png" class="image fit thumb"><img src="images/pig.png" alt="" /></a>
+								<a href="images/pgg.gif" class="image fit thumb"><img src="images/pgg.gif" alt="" /></a>
 								<h3>Pig DOM Game
 									<span>
 										<a target="_blank" href="https://kenneth-liang.github.io/PigGame/">live</a>
@@ -183,7 +197,13 @@
 						<header class="major">
 						&nbsp;&nbsp;&nbsp;
 						<span class="tags inner-tags"> &lt;h2&gt; </span>
-						<h2>Skills & Experience</h2>
+						<!-- <h2>Skills & Experience</h2> -->
+						<h2>
+							<span class="rubberBand" aria-hidden="true" style="opacity: 1;">Skills </span>
+							<span class="rubberBand" aria-hidden="true" style="opacity: 1;">& </span>
+							<span class="rubberBand" aria-hidden="true" style="opacity: 1;">Experience</span>
+
+						</h2>
 						&nbsp;&nbsp;&nbsp;
 						<span class="tags inner-tags"> &lt;/h2&gt; </span>
 						</header>
@@ -253,7 +273,12 @@
 					<section id="contact">
 						&nbsp;&nbsp;&nbsp;
 						<span class="tags inner-tags"> &lt;h2&gt; </span>
-						<h2>Get In Touch</h2>
+						<!-- <h2>Get In Touch</h2> -->
+						<h2>
+							<span class="rubberBand" aria-hidden="true" style="opacity: 1;">Get </span>
+							<span class="rubberBand" aria-hidden="true" style="opacity: 1;">In </span>
+							<span class="rubberBand" aria-hidden="true" style="opacity: 1;">Touch </span>
+						</h2>
 						&nbsp;&nbsp;&nbsp;
 						<span class="tags inner-tags"> &lt;/h2&gt; </span>
 						<div class="row">
@@ -330,6 +355,9 @@
 				</div>
 			</footer>
 
+		<!-- BG -->
+		<!-- <div id="bg"></div> -->
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
@@ -337,6 +365,30 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				let spinnerWrapper = document.querySelecter('.spinner-wrapper');
+				window.addEventListener('load', function(){
+					// spinnerWrapper.style.display = 'none'
+					spinnerWrapper.parentElement.removeChild(spinnerWrapper)
+				})
+				
+				
+			// on load hide main content  
+			</script>
+
+			<script>
+				$(".rubberBand").bind("webkitAnimationEnd mozAnimationEnd animationend", function () {
+					$(this).removeClass("animated")
+				})
+
+				$(".rubberBand").hover(function () {
+					$(this).addClass("animated");
+				})
+			</script>
+
+		<!-- wrapper end  -->
+		</div> 
 
 	</body>
 </html>
