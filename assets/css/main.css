@@ -3400,9 +3400,6 @@ input, select, textarea {
 
 
 /* rubber */
-
-
-
 span.rubberBand {
   display: inline-block;
   animation-duration: 1s;
