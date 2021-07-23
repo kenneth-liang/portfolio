@@ -518,14 +518,6 @@
 
 	};
 
-	$(".rubberBand").bind("webkitAnimationEnd mozAnimationEnd animationend", function () {
-		$(this).removeClass("animated")
-	})
-
-	$(".rubberBand").hover(function () {
-		$(this).addClass("animated");
-	})
-
 	/**
 	 * Moves elements to/from the first positions of their respective parents.
 	 * @param {jQuery} $elements Elements (or selector) to move.
