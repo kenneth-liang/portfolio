@@ -1,4 +1,15 @@
-$(document).ready(function() {
+// $(document).ready(function() {
+//   $(".rubberBand").bind("webkitAnimationEnd mozAnimationEnd animationend", function () {
+//       $(this).removeClass("animated")
+//     })
+
+//   $(".rubberBand").hover(function () {
+//     $(this).addClass("animated");
+//   })
+
+// })
+
+(function () {
   $(".rubberBand").bind("webkitAnimationEnd mozAnimationEnd animationend", function () {
       $(this).removeClass("animated")
     })
@@ -7,4 +18,4 @@ $(document).ready(function() {
     $(this).addClass("animated");
   })
 
-})
+})();
