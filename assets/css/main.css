@@ -3400,7 +3400,7 @@ input, select, textarea {
 
 
 /* rubber */
-span.rubberBand {
+/* span.rubberBand {
   display: inline-block;
   animation-duration: 1s;
   animation-fill-mode: both;
@@ -3412,7 +3412,7 @@ span.rubberBand {
 span.rubberBand.animated {
   -webkit-animation-name: rubberBand;
   animation-name: rubberBand;
-}
+} */
 
 
 /*
@@ -3457,7 +3457,7 @@ span.rubberBand:hover {
   }
 } */
 
-@keyframes rubberBand {
+/* @keyframes rubberBand {
     0% {
         -webkit-transform: scale3d(1,1,1);
         -ms-transform: scale3d(1,1,1);
@@ -3499,4 +3499,4 @@ span.rubberBand:hover {
         -ms-transform: scale3d(1,1,1);
         transform: scale3d(1,1,1)
     }
-}
+} */
