@@ -9,13 +9,13 @@
 
 // })
 
-(function () {
-  $(".rubberBand").bind("webkitAnimationEnd mozAnimationEnd animationend", function () {
-      $(this).removeClass("animated")
-    })
+// (function () {
+//   $(".rubberBand").bind("webkitAnimationEnd mozAnimationEnd animationend", function () {
+//       $(this).removeClass("animated")
+//     })
 
-  $(".rubberBand").hover(function () {
-    $(this).addClass("animated");
-  })
+//   $(".rubberBand").hover(function () {
+//     $(this).addClass("animated");
+//   })
 
-})();
+// })();
