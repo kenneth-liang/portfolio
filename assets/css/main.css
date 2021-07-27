@@ -3406,13 +3406,13 @@ input, select, textarea {
   animation-fill-mode: both;
   animation-iteration-count: 1;
   /* font-size: 60px; */
-  font-weight: 700;
-}
+  /* font-weight: 700;
+} */
 
-span.rubberBand.animated {
+/* span.rubberBand.animated {
   -webkit-animation-name: rubberBand;
   animation-name: rubberBand;
-} */
+} */ 
 
 
 /*
